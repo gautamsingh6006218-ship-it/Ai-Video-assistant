@@ -131,19 +131,3 @@ def process_input(
 
     return chunks
 
-
-if __name__ == "__main__":
-
-    source = input(
-        "Enter YouTube URL or local file path: "
-    )
-
-    chunks = process_input(
-        source,
-        chunk_minutes=1
-    )
-
-    print("\nGenerated Chunks:")
-
-    for chunk in chunks:
-        print(chunk)
