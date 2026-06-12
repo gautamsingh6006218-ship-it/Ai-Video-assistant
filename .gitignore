@@ -17,3 +17,4 @@ __pycache__/
 # Ignore private environment variable files containing API keys
 .env
 .downloads
+.downloads/
