@@ -59,3 +59,4 @@ def get_retriever(vector_store: Chroma, k: int = 4):
     Get a retriever from the vector store.
     """
     return vector_store.as_retriever(search_kwargs={"k": k},search_type="similarity")
+
