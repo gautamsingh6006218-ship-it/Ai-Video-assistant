@@ -18,3 +18,18 @@ __pycache__/
 .env
 .downloads
 .downloads/
+
+# Python virtual environments
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Local application media downloads and audio chunks
+downloads/
+
+# Local vector databases
+vector_db/
+
+# Environment configurations containing API secrets
+.env

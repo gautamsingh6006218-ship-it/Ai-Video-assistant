@@ -2,7 +2,7 @@ import os
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import StrOutputParser
 from langchain_core.runnables import RunnableLambda, RunnablePassthrough
-from langchain_mistral_ai import ChatMistralAI
+from langchain_mistralai import ChatMistralAI
 from core.vector_store import load_vector_store, get_retriever, build_vector_store
 
 

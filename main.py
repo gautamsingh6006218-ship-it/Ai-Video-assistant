@@ -1,7 +1,7 @@
 from dotenv import load_dotenv
 from utils.audio_processor import process_input
 from core.transcriber import transcribe_all
-from core.summarizer import summarize, generate_title
+from core.summarize import summarize, generate_title
 from core.extractor import extract_action_items, extract_decisions, extract_questions
 import os
 from core.rag_engine import build_rag_chain, load_rag_chain, ask_question
@@ -76,5 +76,5 @@ if __name__ == "__main__":
         answer = ask_question(rag_chain, question)
         print(f"Answer: {answer}")
 
-        
+
             
